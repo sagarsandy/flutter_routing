@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       initialRoute: MyHomePage.routeName,
-      routes: <String, WidgetBuilder>{},
+      // routes: <String, WidgetBuilder>{},
       onGenerateRoute: (RouteSettings settings) {
         print("Generate Route Called");
         var screen;

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_routing/screens/ringoscreen.dart';
 
 class PingoScreen extends StatelessWidget {
   static const String routeName = "/pingoscreen";
@@ -20,7 +21,9 @@ class PingoScreen extends StatelessWidget {
               color: Colors.blue,
               textColor: Colors.white,
               elevation: 7.0,
-              onPressed: () {},
+              onPressed: () {
+                Navigator.pushNamed(context, RingoScreen.routeName);
+              },
             ),
           ),
         ),
